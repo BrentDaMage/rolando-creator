@@ -1,0 +1,321 @@
+/* @override 
+	http://rolando2:8888/rolando-creator/css/rolando.css
+	http://rolando2.ngmoco.com/rolando-creator/css/rolando.css
+*/
+
+body { margin:0; padding: 0; color: #4D3A2C;
+	background: #2a4b18 url(http://rolando2.ngmoco.com/rolando-creator/images/background-bottom.png) repeat-x center 555px;
+}
+
+#background {
+	top: 0;
+	height: 555px;
+	position: absolute;
+	width: 100%;
+	background: url(http://rolando2.ngmoco.com/rolando-creator/images/background-top.png) repeat-x center top;
+	left: 0;
+}
+
+h2 { color: #cf4e2e; font-size: 20px; padding: 5px 5px 5px 12px;
+	margin-bottom: 0;
+}
+
+.share h3 { color: #4D3A2C; font-size: 20px; padding: 5px 5px 5px 12px;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+.share h2 {
+	color: #4D3A2C;
+}
+
+#accordion  h2 {
+	margin-top: 3px;
+}
+
+#accordion .share h2 {
+	margin-top: 0px;
+}
+
+.twitter {
+	padding-top: 6px;
+	border-bottom: 1px solid #c4bfb2;
+	padding-bottom: 8px;
+}
+
+.facebook {
+	padding-top: 6px;
+	border-bottom: 1px solid #c4bfb2;
+	padding-bottom: 8px;
+	border-top: 1px solid #fff;
+}
+
+.quicklink {
+	padding-top: 6px;
+	padding-bottom: 8px;
+	border-top: 1px solid #fff;
+	border-bottom: none;
+}
+
+a:link,
+a:visited,
+a:active {color: #E1B650;}
+.center {text-align: center;}
+.right {text-align: right;}
+
+span.error { color: #D95730; font-weight: bold;}
+span.success { color: #446622;font-weight: bold;}
+span.notice{ color: #995311;font-weight: bold;}
+.disclaimer {font-size: 10px; text-align: center;
+	border-top: 1px solid #d0cec3;
+	background-color: #fff;
+	margin: 0;
+	padding-top: 10px;
+	padding-bottom: 16px;
+}
+
+.iphone_container { width:320px; background: #f4f2e5 url(http://rolando2.ngmoco.com/rolando-creator/images/container.jpg);
+	overflow: hidden;
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#are-you-the-ultimate-rolando-list { font-size: 12px;
+	padding-left: 28px;
+	margin-top: 8px;
+}
+
+ol#its-easy-to-get-rolling-list {
+	font-size: 15px;
+	margin-top: 8px;
+	margin-bottom: 20px;
+	padding-left: 0;
+}
+
+li.one {
+	background: url(http://rolando2.ngmoco.com/rolando-creator/images/1.gif) no-repeat 13px center;
+	padding-left: 30px;
+}
+
+li.two {
+	background: url(http://rolando2.ngmoco.com/rolando-creator/images/2.gif) no-repeat 13px center;
+	padding-left: 30px;
+}
+
+li.three {
+	background: url(http://rolando2.ngmoco.com/rolando-creator/images/3.gif) no-repeat 13px center;
+	padding-left: 30px;
+}
+
+.ui-accordion .ui-accordion-header a {
+	text-transform: capitalize;
+}
+.accordion-faux-links .ui-accordion-header a {
+	color:#FFFFFF;
+	display:block;
+	font-size:small;
+	padding:0 0 0 10px;
+}
+
+.landing_page p { font-family: helvetica, arial, sans-serif; }
+
+a img { border: none;}
+
+img.object_item { width: 65px; margin: 5px;}
+
+.rolando-input {
+	width: 280px;
+	margin: 6px 10px 8px;
+	border: 0;
+	font: 14px "Helvetica Neue", arial, sans-serif;
+	padding: 10px 10px 20px;
+}
+
+.share .rolando-input {
+	width: 280px;
+	margin: 6px 10px 0;
+	border: 0;
+	font: 14px "Helvetica Neue", arial, sans-serif;
+	padding: 10px 10px 20px;
+}
+.rolando-textfield { background: url("http://rolando2.ngmoco.com/rolando-creator/images/input-name.png") no-repeat; }
+.rolando-textarea { background: url("http://rolando2.ngmoco.com/rolando-creator/images/input-description.png") no-repeat; height: 105px; overflow: hidden;  }
+#why-you-roll-textarea,
+#twitter-message-textarea { padding: 0 10px 19px;
+	margin: 0 10px 21px 8px;
+	border: 0;
+	font: bold 12px "Helvetica Neue", arial, sans-serif; background: transparent; height: 90px; width: 280px; padding: 10px 0;overflow: hidden; border: 0; }
+#why-you-roll,
+#twitter-message { margin: 0 10px; height: 125px;
+	padding-bottom: 9px;
+}
+#twitter-feedback { text-align: right; font-size: 10px; margin-right: 10px;}
+label { font-size: 13px;}
+
+#view-by-list { text-align: center;}
+#submit, #tweet { border: 0; padding: 0; margin: 0;}
+input { border: 0; margin: 0; padding: 0; background: transparent;}
+
+p { line-height: 1.2em; padding: 6px; font-size: 12px;}
+
+#accordion p {
+	margin: 0 12px 8px 7px;
+}
+
+#accordion .quicklink p {
+	margin-bottom: 0;
+}
+
+.background { width: 50px;
+	border-bottom: 1px solid #b4b1a5;
+	padding-right: 0;
+	padding-top: 3px;
+	padding-bottom: 0;
+	margin: 0 0 4px 6px;
+}
+.background.alpha { margin-left: 11px;}
+
+.rolando-listing { width: 320px; margin: 0 auto; overflow: hidden;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.rolando-listing-container { background: url(http://rolando2.ngmoco.com/rolando-creator/images/view_description_bg.png) no-repeat; height: 140px; }
+.rolando-info { float: left; margin: 0 5px; overflow: hidden; display: inline; width: 80px; padding: 10px 0 0 10px;}
+.rolando-description { float: left; margin: 0 5px; overflow: hidden; display: inline; width: 180px;}
+.rolando-listing-header { background: transparent url(http://rolando2.ngmoco.com/rolando-creator/images/view_name_bg.png) no-repeat; padding: 9px 0 0 20px; height: 31px;}
+.rolando-listing h2 { color: #4D3A2C; padding: 6px 0 0; margin: 0; display: inline; float: left; font-size: 17px;}
+.rolando-description p { line-height: 1.4em; font-size: 12px;}
+.rolando-thumbnail { width: 80px; height: 80px;}
+.rolando-listing-vote { float: right; padding: 3px 20px 3px 3px}
+.btn-thumbs { }
+.btn-thumbs-inactive { opacity: .5 }
+.rolando-info { color: #888;}
+p .votes { margin-left: 10px; font-size: 14px;}
+
+#btn-twitter-post,
+#btn-twitter-success,
+#btn-facebook-share, .facebook img { margin: 6px 0 6px 12px; outline: none;}
+
+h4.bitly {
+	margin-top: 0;
+	margin-left: 14px;
+	font: bold 16px "Helvetica Neue", arial, sans-serif;
+	margin-bottom: 13px;
+	
+}
+
+h4.bitly a {
+}
+
+#bottom-nav {background: #a87351 url(http://rolando2.ngmoco.com/rolando-creator/images/nav.jpg); height: 55px;}
+.btn-next {float: right; }
+.btn-prev {float: left; }
+.positive { color: #41a52d;}
+.negative { color: #c3431b;}
+a img { outline: none;}
+img.left { float: left; margin: 10px;}
+img.right { float: right; margin: 0 10px 10px;}
+#rolando-explorer { float: right; margin: 23px 18px 0 8px;}
+#rolando-group-right { position: absolute; top: 345px; left: 170px;
+}
+#rolando-group-left { position: absolute; top: 445px; left: 6px;}
+
+.accolades {
+	text-align: center;
+}
+
+.accolades hr {
+	width: 55%;
+}
+
+.accolades a {
+	text-decoration: underline;
+}
+
+*:focus {outline: none;}
+
+#frame {
+	width: 346px;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	background: url(http://rolando2.ngmoco.com/rolando-creator/images/shadows.png) no-repeat 0 top;
+	padding-left: 17px;
+	padding-right: 17px;
+	padding-bottom: 16px;
+	top: 62px;
+}
+
+.inner-frame {
+	width: 346px;
+	background-image: url(http://rolando2.ngmoco.com/rolando-creator/images/background.gif);
+	min-height: 550px;
+}
+
+.frame-top {
+	width: 346px;
+	height: 59px;
+	background-image: url(http://rolando2.ngmoco.com/rolando-creator/images/header.gif);
+	position: relative;
+}
+
+.frame-top a {
+	width: 140px;
+	height: 30px;
+	position: absolute;
+	display: block;
+	text-indent: -9999px;
+	overflow: hidden;
+	top: 9px;
+	left: 192px;
+}
+
+.frame-bottom {
+	width: 346px;
+	height: 50px;
+	background-image: url(http://rolando2.ngmoco.com/rolando-creator/images/footer.png);
+}
+
+#gallery {
+	height: 480px;
+	width: 320px;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+}
+
+.rolando-email-set {
+	position: relative;
+}
+
+.email-validity {
+	position: absolute;
+	right: 16px;
+	top: 11px;
+	width: 16px;
+	display: none;
+}
+
+p.form_disclaimer a {
+	color: #B07C55;
+}
+p.form_disclaimer {
+	font-size: 7pt;
+	margin: 13px 0 0 0 !important;
+	padding: 0;
+}
+
+.accolades a:link {
+	color: #C64627;
+	font-size: large;
+}
+
+.disabled_category {
+	height: 100%;
+	width: 320px;
+	position: absolute;
+	z-index: 10;
+}
+
+.disabled_headgear {background: url("http://rolando2.ngmoco.com/rolando-creator/images/disabled_spiker_headgear.png");}
+.disabled_clothes {background: url("http://rolando2.ngmoco.com/rolando-creator/images/disabled_spiker_clothes.png");}

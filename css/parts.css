@@ -1,0 +1,31 @@
+/* @override http://rolando2:8888/rolando-creator/css/parts.css */
+
+#rolando_canvas {
+	background: #fff url(../images/rolando_canvas.jpg);
+	width: 320px;
+	height: 315px;
+	position: relative;
+}
+
+.rolando_part {
+	position: absolute;
+	width: 260px;
+	margin: 0 30px;
+}
+.rolando_body { z-index:1; top: 80px;}
+.rolando_mouth { z-index:2; top:55px;}
+.rolando_freckles { z-index:3; top: 177px;}
+.rolando_pants { z-index:4; top:65px;}
+.rolando_moustache { z-index:5; top:50px;}
+.rolando_eyes { z-index:6; top: 55px;}
+.rolando_eyebrows { z-index:7; top:55px;}
+.rolando_head { z-index:8; top: 10px; width: 320px; margin: 0 auto;}
+
+/* PART OVERRIDES */
+#body-08,
+#body-09,
+#body-10,
+#body-11,
+#body-12,
+#body-13,
+#body-14 { top: 58px;}
